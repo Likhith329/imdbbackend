@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 
-const usermodel=mongoose.Schema({
+const usermode=mongoose.Schema({
     name:{
         type:String,
         required:true
@@ -17,6 +17,6 @@ const usermodel=mongoose.Schema({
     timestamps:true
 })
 
-const User=mongoose.model("User",usermodel)
+const User=mongoose.model("User",usermode)
 
 module.exports=User
