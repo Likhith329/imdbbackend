@@ -16,7 +16,7 @@ module.exports.signup=async(req,res)=>{
     const user=await data.save()
     console.log(user)
 
-    return res.status(200).send('Signedup successfully!')
+    return res.status(200).send('Registered successfully!')
 }
 
 module.exports.signin=async(req,res)=>{
